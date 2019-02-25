@@ -1,32 +1,32 @@
 body{
  text-align: center;
- background: linear-gradient(317deg, #319f3a, #00aeca);
-background-size: 400% 400%;
+ background: linear-gradient(270deg, #2b997d, #0081ea, #9c6dd4);
+background-size: 600% 600%;
 
--webkit-animation: BGAnimate 0s ease infinite;
--moz-animation: BGAnimate 0s ease infinite;
--o-animation: BGAnimate 0s ease infinite;
-animation: BGAnimate 0s ease infinite;
+-webkit-animation: AnimationName 0s ease infinite;
+-moz-animation: AnimationName 0s ease infinite;
+-o-animation: AnimationName 0s ease infinite;
+animation: AnimationName 0s ease infinite;
 
-@-webkit-keyframes BGAnimate {
-    0%{background-position:0% 91%}
-    50%{background-position:100% 10%}
-    100%{background-position:0% 91%}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@-moz-keyframes BGAnimate {
-    0%{background-position:0% 91%}
-    50%{background-position:100% 10%}
-    100%{background-position:0% 91%}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@-o-keyframes BGAnimate {
-    0%{background-position:0% 91%}
-    50%{background-position:100% 10%}
-    100%{background-position:0% 91%}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@keyframes BGAnimate { 
-    0%{background-position:0% 91%}
-    50%{background-position:100% 10%}
-    100%{background-position:0% 91%}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 }
 
