@@ -32,10 +32,11 @@ animation: BGAnimate 0s ease infinite;
 
 h1{
  font-family: 'Montserrat', sans-serif;
- color: black;
- font-size: 6rem
+ color: white;
+ font-size: 6rem;
 }
 
 h2{
- font-family: 'Montserrat', sans-serif
+ font-family: 'Montserrat', sans-serif;
+ color: white;
 }
