@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color: #ff3c3c;
+  color: white;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: 'Righteous', sans-serif;
+  color: white;
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-transform: lowercase;
+}
+
+h3 {
+  font-family: 'Gafata', sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Gafata', sans-serif;
+  font-weight: bold;
+}
+
+.main-img {
+  width: 14vw;
+  height: auto;
+  max-width: 220px;
+  filter: brightness(100);
+  -webkit-filter: brightness(100);
+}
+
+.main {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
