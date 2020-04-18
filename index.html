@@ -34,6 +34,9 @@
     document.getElementById("aboutBtn").addEventListener("click", function() {
       document.getElementById("about-content").classList.replace("notfaded", "faded");
     });
+    window.addEventListener("scroll", function() {
+      document.getElementById("about-content").classList.replace("notfaded", "faded");
+    })
   </script>
 </body>
 
