@@ -17,10 +17,12 @@ body::-webkit-scrollbar-thumb {
 
 body {
   text-align: center;
-  background-color: #f60b53;
+  background: #f60b53;
+  background: linear-gradient(to bottom, #f60b53 0%, #f60b53 50%, #810027 100%);
   color: white;
   overflow-y: scroll;
   scroll-behavior: smooth;
+  height: 200vh;
 }
 
 h1 {
