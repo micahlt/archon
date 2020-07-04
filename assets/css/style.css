@@ -17,17 +17,17 @@ body::-webkit-scrollbar-thumb {
 
 body {
   text-align: center;
-  background-color: #ff3c3c;
+  background-color: #f60b53;
   color: white;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
 h1 {
-  font-family: 'Righteous', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 6rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 h2 {
